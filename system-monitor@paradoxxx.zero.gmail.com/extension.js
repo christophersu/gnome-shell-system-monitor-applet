@@ -1580,11 +1580,11 @@ const Net = new Lang.Class({
 
     },
     create_text_items: function() {
-        return [new St.Icon({icon_size: 2 * IconSize / 3 * Style.iconsize(),
+        return [new St.Icon({icon_size: 5 * IconSize / 3 * Style.iconsize(),
                               icon_name:'go-down-symbolic'}),
                 new St.Label({ style_class: Style.get("sm-net-value")}),
                 new St.Label({ text: _('KiB/s'), style_class: Style.get("sm-net-unit-label")}),
-                new St.Icon({ icon_size: 2 * IconSize / 3 * Style.iconsize(),
+                new St.Icon({ icon_size: 5 * IconSize / 3 * Style.iconsize(),
                               icon_name:'go-up-symbolic'}),
                 new St.Label({ style_class: Style.get("sm-net-value")}),
                 new St.Label({ text: _('KiB/s'), style_class: Style.get("sm-net-unit-label")})];
